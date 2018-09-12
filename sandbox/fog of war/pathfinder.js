@@ -135,7 +135,7 @@ class Grid{
 			var rowArray = [];
 			for (var j = 0; j < this.rows; j++){
 				var yLoc = this.gridSpacing.y / 2 + this.gridSpacing.y * j;
-				rowArray.push(new GridNode(xLoc, yLoc, this.gridSpacing.x-5, this.gridSpacing.y-5, i, j, true, 0));
+				rowArray.push(new GridNode(xLoc, yLoc, this.gridSpacing.x-1, this.gridSpacing.y-1, i, j, true, 0));
 			}
 			this.elem.push(rowArray);
 		}

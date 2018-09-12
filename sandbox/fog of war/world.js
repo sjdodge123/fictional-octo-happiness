@@ -3,7 +3,7 @@ class World extends Rect{
         super(0,0,"orange",globals.canvas.height-(offsetY*2),globals.canvas.width-(offsetX*2),0);
         this.offsetX = offsetX;
         this.offsetY = offsetY;
-        this.grid = new Grid(5,5,globals.canvas.width,globals.canvas.height);
+        this.grid = new Grid(20,20,globals.canvas.width,globals.canvas.height);
         this.pieces = [];
     }
     update(dt){
